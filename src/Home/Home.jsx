@@ -2,6 +2,7 @@ import Profile from "./component/Profile";
 import Introduce from "./component/Introduce";
 import Education from "./component/Education";
 import HorizonLine from "./component/HorizonLIne";
+import Skill from "./component/Skill";
 
 function Home() {
   return (
@@ -10,6 +11,8 @@ function Home() {
       <Introduce />
       <HorizonLine />
       <Education />
+      <HorizonLine />
+      <Skill />
       <HorizonLine />
     </div>
   );

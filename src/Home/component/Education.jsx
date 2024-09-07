@@ -6,7 +6,6 @@ function Education() {
       <div className={styles.title}>
         <p>학력</p>
       </div>
-      <div className={styles.vr} />
       <div className={styles.contents}>
         <div className={styles.education}>
           <div className={styles.university}>
