@@ -146,16 +146,14 @@
 .skill {
   margin-top: -10px;
   margin-bottom: -13px;
-
-  > div {
-    display: flex;
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .button {
   padding: 10px 12px 13px 12px;
   border-radius: 35px;
-  margin: 0 5px;
+  margin: 5px 5px;
   border: 1px solid black;
 }

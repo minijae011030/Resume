@@ -16,23 +16,16 @@ function Skill() {
       </div>
       <div className={styles.contents}>
         <div className={styles.skill}>
-          <div>
-            <Button text="JavaScript" />
-            <Button text="HTML" />
-            <Button text="CSS" />
-          </div>
-          <div>
-            <Button text="React" />
-            <Button text="ReactNative" />
-            <Button text="Recoil" />
-          </div>
-          <div>
-            <Button text="Figma" />
-          </div>
-          <div>
-            <Button text="Git" />
-            <Button text="GitHub" />
-          </div>
+          <Button text="JavaScript" />
+          <Button text="HTML" />
+          <Button text="CSS" />
+          <Button text="React" />
+          <Button text="ReactNative" />
+          <Button text="Recoil" />
+          <Button text="Figma" />
+
+          <Button text="Git" />
+          <Button text="GitHub" />
         </div>
       </div>
     </div>
