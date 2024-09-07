@@ -48,7 +48,6 @@
 
   > .info {
     margin: 10px 0;
-
     gap: 10px;
 
     > p {
@@ -88,4 +87,27 @@
   width: 150px;
   height: 150px;
   margin: 20px 60px 0 0;
+}
+
+/* introduce */
+.introduce {
+  margin: 20px 0 40px 0;
+  width: 100%;
+  padding: 0 0 0 50px;
+}
+
+.main_comment {
+  margin: 0 0 20px 0;
+  > p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+.sub_comment {
+  > p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
