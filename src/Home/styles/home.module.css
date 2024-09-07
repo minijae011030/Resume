@@ -145,10 +145,9 @@
 /* skill */
 .skill {
   margin-top: -10px;
-  margin-bottom: -13px;
+  margin-bottom: -8px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 
 .button {
