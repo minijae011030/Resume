@@ -30,12 +30,10 @@ function ProjectComponent({ index, project }) {
       </p>
       <div className={styles.urls}>
         <div className={styles.url}>
-          <p>프로젝트 링크: </p>
-          <a href={project.project_url}>{project.project_url}</a>
+          <a href={project.project_url}>프로젝트 링크</a>
         </div>
         <div className={styles.url}>
-          <p>GitHub 링크: </p>
-          <a href={project.github_url}>{project.github_url}</a>
+          <a href={project.github_url}>GitHub 링크</a>
         </div>
       </div>
       <HorizonLine />
@@ -55,14 +53,18 @@ function ProjectComponent({ index, project }) {
 
 function Project() {
   return (
-    <div className={styles.project_contents}>
-      <div className={styles.projects}>
-        {projects.map((project, index) => {
-          return <ProjectComponent index={index} project={project} />;
-        })}
+    <div className={styles.section}>
+      <div className={styles.title}>
+        <p>프로젝트</p>
+      </div>
+      <div className={styles.content}>
+        <div className={styles.projects}>
+          {projects.map((project, index) => {
+            return <ProjectComponent index={index} project={project} />;
+          })}
+        </div>
       </div>
     </div>
-    // </div>
   );
 }
 

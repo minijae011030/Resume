@@ -54,7 +54,8 @@
     > .url {
       display: flex;
       gap: 10px;
-      margin: 5px 0;
+      margin: 10px 0;
+
       > p {
         font-weight: lighter;
       }
@@ -64,6 +65,7 @@
         font-weight: lighter;
         cursor: pointer;
         text-decoration-thickness: 0.5px;
+        letter-spacing: 1px;
       }
     }
   }
@@ -129,37 +131,28 @@
 /* section */
 .section {
   width: 100%;
-  display: flex;
   justify-content: center;
   padding: 40px 0;
 }
 
 .title {
-  /* width: 170px; */
-  margin: 0 0 0 50px;
-  padding: 30px 0 30px 10px;
+  width: 90%;
+  margin: 0 auto;
   font-weight: 500;
+  justify-content: center;
 }
 
 .contents {
-  flex: 1;
-  margin: 0 50px 0 0;
-  padding: 30px 10px 30px 30px;
-}
-
-.project_contents {
   width: 90%;
   margin: 0 auto;
-  justify-content: center;
-  flex: 1;
-  padding: 30px;
+  padding: 30px 0px;
 }
 
 /* education */
 .university {
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 10px;
   .name {
     font-weight: 500;
   }
@@ -175,8 +168,8 @@
 }
 
 .major {
-  font-size: 12px;
-  margin: 5px 0;
+  font-size: 15px;
+  margin: 8px 0;
 }
 
 /* skill */
@@ -189,71 +182,68 @@
   padding: 10px 12px 13px 12px;
   border-radius: 35px;
   border: 1px solid black;
-  margin: 0 5px 5px 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .title {
-    width: 170px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .title {
-    width: 70px;
-  }
+  margin: 0 10px 10px 0;
 }
 
 /* project */
-
 .project {
-  border: 1px solid gray;
-  margin: 0 0 30px 0;
-  padding: 25px 20px;
+  width: 90%;
+  margin: 50px auto 70px auto;
+  border: 1px solid lightgray;
+  padding: 30px 0;
 
   .project_name {
+    width: 90%;
+    margin: 0 auto 10px auto;
     font-size: 23px;
-    margin: 0 0 10px 0;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .project_description {
-    font-weight: lighter;
-    margin: 0 0 10px 0;
+    font-weight: 300;
+    width: 90%;
+    margin: 0 auto 10px auto;
   }
 
   .project_duration {
     font-size: 13px;
-    margin: 0 0 25px 0;
+    width: 90%;
+    margin: 0 auto 25px auto;
+    font-weight: lighter;
   }
 
   .project_skill {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
-    margin: 25px 0 15px 0;
+    width: 90%;
+    margin: 25px auto 15px auto;
 
     > div {
-      border: 1px solid black;
+      border: 0.1px solid black;
       border-radius: 15px;
       padding: 5px 10px;
       font-size: 14px;
+      font-weight: lighter;
     }
   }
 
   .project_composition {
-    margin: 0 0 25px 0;
     font-size: 15px;
     font-weight: 300;
+    width: 90%;
+    margin: 0 auto 25px auto;
   }
 
   .urls {
-    margin: 0 0 25px 0;
+    width: 90%;
+    margin: 0 auto 25px auto;
   }
 
   .url {
     display: flex;
     gap: 5px;
-    margin: 0 0 8px 0;
+    margin: 0 0 15px 0;
 
     > p {
       font-size: 15px;
@@ -269,8 +259,10 @@
   }
 
   .main_tasks {
+    width: 90%;
+    margin: 0 auto 10px auto;
     > .task_title {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 16px;
       margin: 0 0 13px 0;
     }
@@ -278,12 +270,13 @@
     > .task {
       font-size: 15px;
       margin: 0 0 10px 0;
+      font-weight: lighter;
     }
   }
 }
 
 .project_hr {
-  width: 100%;
-  border-top: 1px solid gray;
-  margin: 20px 0;
+  width: 90%;
+  border-top: 1px solid lightgray;
+  margin: 20px auto;
 }
