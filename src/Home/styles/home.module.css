@@ -122,9 +122,13 @@
 
 .sub_comment {
   padding: 0 0 0 50px;
+
+  width: 90%;
   > p {
     font-size: 16px;
     line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 10px;
   }
 }
 

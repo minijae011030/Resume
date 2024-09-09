@@ -29,9 +29,11 @@ function ProjectComponent({ index, project }) {
         구성 인원: {project.project_composition}
       </p>
       <div className={styles.urls}>
-        <div className={styles.url}>
-          <a href={project.project_url}>프로젝트 링크</a>
-        </div>
+        {project.project_url && (
+          <div className={styles.url}>
+            <a href={project.project_url}>프로젝트 링크</a>
+          </div>
+        )}
         <div className={styles.url}>
           <a href={project.github_url}>GitHub 링크</a>
         </div>
