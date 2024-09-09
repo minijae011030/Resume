@@ -19,9 +19,10 @@ function Skill() {
           <Button text="JavaScript" />
           <Button text="HTML" />
           <Button text="CSS" />
+
           <Button text="React" />
           <Button text="ReactNative" />
-          <Button text="Recoil" />
+
           <Button text="Figma" />
 
           <Button text="Git" />
