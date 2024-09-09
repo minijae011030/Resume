@@ -5,17 +5,12 @@
 
 /* profile */
 .profile {
-  height: 220px;
-  margin: 60px 0 70px 0;
+  margin: 60px auto 70px auto;
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .information {
-  width: 100%;
-  flex: 1;
-  padding-left: 50px;
-
   > .name {
     margin: 15px 0 30px 0;
 
@@ -71,6 +66,15 @@
   }
 }
 
+.big_information {
+  flex: 1;
+}
+
+.small_information {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
 .big_info {
   display: flex;
 }
@@ -111,8 +115,9 @@
 }
 
 .main_comment {
-  margin: 0 0 20px 0;
-  padding: 0 0 0 50px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+
   > p {
     font-size: 22px;
     font-weight: 500;
@@ -121,9 +126,9 @@
 }
 
 .sub_comment {
-  padding: 0 0 0 50px;
-
   width: 90%;
+  margin: 0 auto;
+
   > p {
     font-size: 16px;
     line-height: 26px;

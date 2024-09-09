@@ -22,7 +22,7 @@ function Profile() {
   if (isMobileScreen) {
     return (
       <div className={styles.profile}>
-        <div className={styles.information}>
+        <div className={`${styles.information} ${styles.small_information}`}>
           <div className={styles.name}>
             <p>{process.env.REACT_APP_NAME}</p>
           </div>
@@ -57,7 +57,7 @@ function Profile() {
 
   return (
     <div className={styles.profile}>
-      <div className={styles.information}>
+      <div className={`${styles.information} ${styles.big_information}`}>
         <div className={styles.name}>
           <p>{process.env.REACT_APP_NAME}</p>
         </div>
