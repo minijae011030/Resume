@@ -29,11 +29,26 @@ function Profile() {
           <div className={styles.job}>
             <p>Frontend Developer</p>
           </div>
+
           <div className={styles.short_hr} />
+
           <div className={`${styles.info} ${styles.small_info}`}>
             <p className={styles.email}>{process.env.REACT_APP_EMAIL}</p>
             {!isSmallScreen && <p>·</p>}
             <p className={styles.phone}>{process.env.REACT_APP_PHONE}</p>
+          </div>
+
+          <div className={styles.urls}>
+            <div className={styles.url}>
+              <p>블로그: </p>
+              <a href="https://blog-ian.com">blog-ian.com</a>
+            </div>
+            <div className={styles.url}>
+              <p>GitHub: </p>
+              <a href="https://github.com/minijae011030">
+                github.com/minijae011030
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -49,7 +64,9 @@ function Profile() {
         <div className={styles.job}>
           <p>Frontend Developer</p>
         </div>
+
         <div className={styles.short_hr} />
+
         <div
           className={
             isSmallScreen
@@ -60,6 +77,19 @@ function Profile() {
           <p className={styles.email}>{process.env.REACT_APP_EMAIL}</p>
           {!isSmallScreen && <p>·</p>}
           <p className={styles.phone}>{process.env.REACT_APP_PHONE}</p>
+        </div>
+
+        <div className={styles.urls}>
+          <div className={styles.url}>
+            <p>블로그: </p>
+            <a href="https://blog-ian.com">blog-ian.com</a>
+          </div>
+          <div className={styles.url}>
+            <p>GitHub: </p>
+            <a href="https://github.com/minijae011030">
+              github.com/minijae011030
+            </a>
+          </div>
         </div>
       </div>
       <div

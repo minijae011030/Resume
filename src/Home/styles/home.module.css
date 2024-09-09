@@ -6,7 +6,7 @@
 /* profile */
 .profile {
   height: 220px;
-  margin: 60px 0 0 0;
+  margin: 60px 0 70px 0;
   display: flex;
   width: 100%;
 }
@@ -45,6 +45,26 @@
 
     > p {
       font-weight: lighter;
+    }
+  }
+
+  > .urls {
+    margin: 30px 0;
+
+    > .url {
+      display: flex;
+      gap: 10px;
+      margin: 5px 0;
+      > p {
+        font-weight: lighter;
+      }
+
+      > a {
+        color: black;
+        font-weight: lighter;
+        cursor: pointer;
+        text-decoration-thickness: 0.5px;
+      }
     }
   }
 }
