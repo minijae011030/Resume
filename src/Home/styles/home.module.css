@@ -138,6 +138,7 @@
 .title {
   width: 90%;
   margin: 0 auto;
+  padding-left: 10px;
   font-weight: 500;
   justify-content: center;
   font-size: 17px;
@@ -154,23 +155,26 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  margin-left: 2px;
+
   .name {
     font-weight: 500;
   }
 
   .duration {
     font-size: 14px;
+    margin-right: 2px;
   }
 }
 
 .duration_mobile {
   font-size: 14px;
-  margin: 10px 0;
+  margin: 10px 0 10px 2px;
 }
 
 .major {
   font-size: 15px;
-  margin: 8px 0;
+  margin: 8px 0 8px 2px;
   font-weight: 300;
 }
 
