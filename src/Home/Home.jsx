@@ -5,7 +5,7 @@ import Introduce from "./component/Introduce";
 import Education from "./component/Education";
 import Skill from "./component/Skill";
 
-import HorizonLine from "../utils/component/HorizonLIne";
+import HorizonLine from "../utils/component/HorizonLine";
 import Footer from "../utils/component/Footer";
 import Project from "./component/Project";
 

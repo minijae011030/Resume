@@ -1,0 +1,31 @@
+[
+  {
+    "project_name": "Archive",
+    "project_description": "웹 블로그",
+    "project_duration": "2024.07 - 2024.08 (2개월)",
+    "project_composition": "백엔드 및 서버 1명, 프론트엔드 1명",
+    "project_url": "https://blog-ian.com",
+    "github_url": "https://github.com/Dong-Ian/front",
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "project_name": "Petfinity",
+    "project_description": "반려동물 AI 건강 진단 애플리케이션",
+
+    "project_duration": "2024.03 - 2024.06 (4개월)",
+    "project_composition": "백엔드 2명, 프론트엔드 1명, AI 1명",
+    "project_url": "https://blog-ian.com",
+    "github_url": "https://github.com/Capstone-Petfinity/front-ian",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative"]
+  },
+  {
+    "project_name": "Antiheimer",
+    "project_description": "AI 치매 진단 애플리케이션",
+
+    "project_duration": "2024.08 - 2024.10 (3개월)",
+    "project_composition": "백엔드 2명, 프론트엔드 1명, AI 1명",
+    "project_url": "https://blog-ian.com",
+    "github_url": "https://github.com/AntiHeimer/front-RN",
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative"]
+  }
+]

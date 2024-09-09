@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import styles from "../styles/home.module.css";
 
-import profile_img from "../../asset/profile_ian.jpg";
+import profile_img from "../../utils/image/profile_ian.jpg";
 
 function Profile() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);

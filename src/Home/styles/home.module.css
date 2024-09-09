@@ -141,8 +141,13 @@
   }
 }
 
+.duration_mobile {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
 .major {
-  font-size: 13px;
+  font-size: 12px;
   margin: 5px 0;
 }
 
@@ -163,4 +168,82 @@
   .title {
     width: 170px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    width: 70px;
+  }
+}
+
+/* project */
+
+.project {
+  border: 1px solid gray;
+
+  margin: 0 0 30px 0;
+  padding: 25px 20px;
+
+  .project_name {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+  }
+
+  .project_description {
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+  }
+
+  .project_duration {
+    font-size: 12px;
+    margin: 0 0 15px 0;
+  }
+
+  .project_skill {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0 15px 0;
+
+    > div {
+      border: 0.5px solid black;
+      border-radius: 15px;
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+
+  .project_composition {
+    margin: 0 0 25px 0;
+    font-size: 14px;
+  }
+
+  .urls {
+    margin: 0 0 20px 0;
+  }
+
+  .url {
+    display: flex;
+    gap: 5px;
+    margin: 0 0 8px 0;
+
+    > p {
+      font-size: 14px;
+    }
+
+    > a {
+      color: black;
+      font-size: 14px;
+    }
+
+    > a:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.project_hr {
+  width: 100%;
+  border-top: 1px solid gray;
+  margin: 20px 0;
 }
