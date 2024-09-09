@@ -55,18 +55,14 @@ function ProjectComponent({ index, project }) {
 
 function Project() {
   return (
-    <div className={styles.section}>
-      <div className={styles.title}>
-        <p>프로젝트</p>
-      </div>
-      <div className={styles.contents}>
-        <div className={styles.projects}>
-          {projects.map((project, index) => {
-            return <ProjectComponent index={index} project={project} />;
-          })}
-        </div>
+    <div className={styles.project_contents}>
+      <div className={styles.projects}>
+        {projects.map((project, index) => {
+          return <ProjectComponent index={index} project={project} />;
+        })}
       </div>
     </div>
+    // </div>
   );
 }
 

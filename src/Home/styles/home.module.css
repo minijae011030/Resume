@@ -147,6 +147,14 @@
   padding: 30px 10px 30px 30px;
 }
 
+.project_contents {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  flex: 1;
+  padding: 30px;
+}
+
 /* education */
 .university {
   display: flex;
@@ -200,12 +208,11 @@
 
 .project {
   border: 1px solid gray;
-
   margin: 0 0 30px 0;
   padding: 25px 20px;
 
   .project_name {
-    font-size: 20px;
+    font-size: 23px;
     margin: 0 0 10px 0;
     font-weight: 500;
   }
@@ -216,30 +223,31 @@
   }
 
   .project_duration {
-    font-size: 12px;
-    margin: 0 0 15px 0;
+    font-size: 13px;
+    margin: 0 0 25px 0;
   }
 
   .project_skill {
     display: flex;
     gap: 5px;
-    margin: 20px 0 15px 0;
+    margin: 25px 0 15px 0;
 
     > div {
-      border: 0.5px solid black;
+      border: 1px solid black;
       border-radius: 15px;
       padding: 5px 10px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
   .project_composition {
     margin: 0 0 25px 0;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 300;
   }
 
   .urls {
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
   }
 
   .url {
@@ -248,28 +256,27 @@
     margin: 0 0 8px 0;
 
     > p {
-      font-size: 14px;
+      font-size: 15px;
+      font-weight: 300;
     }
 
     > a {
       color: black;
-      font-size: 14px;
-    }
-
-    > a:hover {
+      font-size: 15px;
+      font-weight: 300;
       cursor: pointer;
     }
   }
 
   .main_tasks {
     > .task_title {
-      font-weight: 500;
-      font-size: 14px;
+      font-weight: 400;
+      font-size: 16px;
       margin: 0 0 13px 0;
     }
 
     > .task {
-      font-size: 14px;
+      font-size: 15px;
       margin: 0 0 10px 0;
     }
   }
