@@ -3,7 +3,7 @@ import styles from "../styles/utils.module.css";
 function Footer() {
   return (
     <div className={styles.footer}>
-      <p>Ian's Resume</p>
+      <a href="https://github.com/minijae011030/Resume">Ian's Resume</a>
     </div>
   );
 }

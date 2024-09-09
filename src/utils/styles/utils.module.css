@@ -13,11 +13,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 70px;
+  height: 40px;
+  margin-bottom: 30px;
 
-  > p {
-    margin: auto 0;
-    font-size: 12px;
+  > a {
+    margin: auto;
     color: gray;
+    font-size: 13px;
+    cursor: pointer;
   }
 }
