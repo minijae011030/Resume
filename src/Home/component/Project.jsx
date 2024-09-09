@@ -6,6 +6,7 @@ function HorizonLine() {
 }
 function ProjectComponent({ index, project }) {
   const skills = project.skills;
+  const tasks = project.main_tasks;
 
   return (
     <div key={index} className={styles.project}>
@@ -38,6 +39,16 @@ function ProjectComponent({ index, project }) {
         </div>
       </div>
       <HorizonLine />
+      <div className={styles.main_tasks}>
+        <p className={styles.task_title}>주요 업무</p>
+        {tasks.map((task, index) => {
+          return (
+            <p className={styles.task} key={index}>
+              {task}
+            </p>
+          );
+        })}
+      </div>
     </div>
   );
 }

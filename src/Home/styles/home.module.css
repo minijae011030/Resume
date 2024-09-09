@@ -21,7 +21,7 @@
 
     > p {
       font-size: 45px;
-      font-weight: 400;
+      font-weight: 700;
       letter-spacing: 5px;
     }
   }
@@ -238,6 +238,19 @@
 
     > a:hover {
       cursor: pointer;
+    }
+  }
+
+  .main_tasks {
+    > .task_title {
+      font-weight: 500;
+      font-size: 14px;
+      margin: 0 0 13px 0;
+    }
+
+    > .task {
+      font-size: 14px;
+      margin: 0 0 10px 0;
     }
   }
 }

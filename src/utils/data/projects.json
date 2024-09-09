@@ -6,7 +6,13 @@
     "project_composition": "백엔드 및 서버 1명, 프론트엔드 1명",
     "project_url": "https://blog-ian.com",
     "github_url": "https://github.com/Dong-Ian/front",
-    "skills": ["HTML", "CSS", "JavaScript", "React"]
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "main_tasks": [
+      "- React 를 이용한 개인 블로그 제작 프로젝트 프론트엔드 담당",
+      "- 글 작성을 위한 포스팅 페이지 개발 (ReactQuill 라이브러리 활용)",
+      "- 작성된 글을 서버에서 받아와 동적 url을 이용한 라우팅 및 화면 구성",
+      "- Utteraces 를 이용한 댓글 기능 개발"
+    ]
   },
   {
     "project_name": "Petfinity",
@@ -16,7 +22,13 @@
     "project_composition": "백엔드 2명, 프론트엔드 1명, AI 1명",
     "project_url": "https://blog-ian.com",
     "github_url": "https://github.com/Capstone-Petfinity/front-ian",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactNative"]
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
+    "main_tasks": [
+      "- 사용자가 디바이스 카메라를 통해 서버로 사진과 정보를 전달할 수 있는 기능 개발",
+      "- 서비스 기획, 피그마를 이용한 UI/UX 디자인 및 프론트엔드 개발을 전담",
+      "- 서버 파트를 관리해 백엔드 서버 관리 및 도메인 연결, AI 서버 관리를 담당",
+      "- 백엔드 및 AI 파트와 REST API 로 통신"
+    ]
   },
   {
     "project_name": "Antiheimer",
@@ -26,6 +38,12 @@
     "project_composition": "백엔드 2명, 프론트엔드 1명, AI 1명",
     "project_url": "https://blog-ian.com",
     "github_url": "https://github.com/AntiHeimer/front-RN",
-    "skills": ["HTML", "CSS", "JavaScript", "ReactNative"]
+    "skills": ["HTML", "CSS", "JavaScript", "ReactNative", "Figma"],
+    "main_tasks": [
+      "- Apple HealthKit 정보를 불러와 화면에 그래프로 정보를 표시하는 기능 개발",
+      "- 디바이스를 기반으로 한 사용자의 현재 위치를 불러와 지도에 표시해주는 기능 개발",
+      "- 서비스 기획, 피그마를 이용한 UI/UX 디자인 및 프론트엔드 개발을 전담",
+      "- 백엔드 및 AI 파트와 REST API 로 통신"
+    ]
   }
 ]

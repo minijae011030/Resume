@@ -15,12 +15,12 @@ function Home() {
       <Profile />
       <Introduce />
       <HorizonLine />
-      <Education />
-      <HorizonLine />
       <Skill />
       <HorizonLine />
       <Project />
       <HorizonLine />
+      <Education />
+
       <Footer />
     </div>
   );
