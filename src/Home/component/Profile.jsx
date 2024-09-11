@@ -41,7 +41,7 @@ function Profile() {
           <div className={styles.urls}>
             <div className={styles.url}>
               <p>블로그: </p>
-              <a href="https://blog-ian.com">blog-ian.com</a>
+              <a href="https://blog.minjae-dev.com">blog.minjae-dev.comm</a>
             </div>
             <div className={styles.url}>
               <p>GitHub: </p>
@@ -82,7 +82,7 @@ function Profile() {
         <div className={styles.urls}>
           <div className={styles.url}>
             <p>블로그: </p>
-            <a href="https://blog-ian.com">blog-ian.com</a>
+            <a href="https://blog.minjae-dev.com">blog.minjae-dev.com</a>
           </div>
           <div className={styles.url}>
             <p>GitHub: </p>
