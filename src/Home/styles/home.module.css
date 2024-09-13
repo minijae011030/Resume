@@ -57,9 +57,8 @@
 
       > a {
         color: black;
-        font-weight: 300;
         cursor: pointer;
-        text-decoration-thickness: 0.5px;
+        text-underline-position: under;
         letter-spacing: 0.2px;
       }
     }
@@ -72,7 +71,6 @@
 
 .small_information {
   width: 90%;
-  margin: 0 auto 0 auto;
 }
 
 .big_info {
