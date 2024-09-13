@@ -43,12 +43,7 @@ function Profile() {
               <p>블로그: </p>
               <a href="https://blog.minjae-dev.com">blog.minjae-dev.comm</a>
             </div>
-            <div className={styles.url}>
-              <p>포트폴리오: </p>
-              <a href="https://portfolio.minjae-dev.com">
-                portfolio.minjae-dev.com
-              </a>
-            </div>
+
             <div className={styles.url}>
               <p>GitHub: </p>
               <a href="https://github.com/minijae011030">
@@ -90,12 +85,7 @@ function Profile() {
             <p>블로그: </p>
             <a href="https://blog.minjae-dev.com">blog.minjae-dev.com</a>
           </div>
-          <div className={styles.url}>
-            <p>포트폴리오: </p>
-            <a href="https://portfolio.minjae-dev.com">
-              portfolio.minjae-dev.com
-            </a>
-          </div>
+
           <div className={styles.url}>
             <p>GitHub: </p>
             <a href="https://github.com/minijae011030">
