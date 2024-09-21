@@ -27,6 +27,7 @@
     width: 50px;
     margin: 20px 0;
   }
+
   > .job {
     margin: 10px 0;
     > p {
@@ -60,6 +61,7 @@
         cursor: pointer;
         text-underline-position: under;
         letter-spacing: 0.2px;
+        font-weight: 300;
       }
     }
   }

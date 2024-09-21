@@ -48,7 +48,10 @@ function Education() {
         <div className={styles.education}>
           <div className={styles.university}>
             <p className={styles.name}>세종대학교</p>
-            <p className={styles.duration}>2020.03 - 2025.02</p>
+            <p className={styles.duration}>
+              2020.03 - 2025.02{" "}
+              <span style={{ fontSize: 12, fontWeight: 300 }}>(졸업예정)</span>
+            </p>
           </div>
           <p className={styles.major}>
             호텔관광대학 외식경영학과 {"("}주{")"}
