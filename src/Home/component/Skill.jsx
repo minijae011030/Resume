@@ -1,6 +1,6 @@
 import styles from "../styles/home.module.css";
 
-function Button({ text, background_color }) {
+function Button({ text }) {
   return (
     <div className={styles.button}>
       <p>{text}</p>
@@ -17,6 +17,7 @@ function Skill() {
       <div className={styles.contents}>
         <div className={styles.skill}>
           <Button text="JavaScript" />
+          <Button text="TypeScript" />
           <Button text="HTML" />
           <Button text="CSS" />
 
